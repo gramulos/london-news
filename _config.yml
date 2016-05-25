@@ -5,7 +5,5 @@ baseurl: ""
 url: "http://localhost:4000"
 
 # Build settings
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+markdown: kramdown
 premalink: /articles/:title
