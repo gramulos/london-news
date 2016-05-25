@@ -11,7 +11,7 @@ layout: default
       <!-- Grid Example -->
       <div class="row">
         <div class="twelve columns">
-			{{ content }}
+			{{ content }}      
         </div>
       </div>
 
@@ -21,11 +21,11 @@ layout: default
 
     </div>
    <div class="four columns">
-
+      
       <h4>Related Writings</h4>
       <p>From the archives of this journal:</p>
       <ul class="disc">
-      {% for post in site.related_posts limit: 10 %}
+      {% for post in site.related_posts limit: 10 %}        
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
       </ul>

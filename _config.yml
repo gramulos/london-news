@@ -5,5 +5,7 @@ baseurl: "/london-news"
 url: "http://localhost:4000"
 
 # Build settings
+gems: [jekyll-paginate]
 markdown: kramdown
 premalink: /articles/:title
+paginate: 3
